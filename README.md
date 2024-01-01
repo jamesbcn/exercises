@@ -432,7 +432,7 @@ export class AppUserForm {
 ![image](uploads/0388377207d10f8732e1d64623a255b6/image.png)
 
 ## Answer
-My card design using SCSS and Bootstrap 5 can be found on StackBlitz:  [Click here](https://stackblitz.com/edit/stackblitz-starters-wepwax?file=src%2Fstyles.scss){:target="_blank"}
+My card design using SCSS and Bootstrap 5 can be found on StackBlitz:  [https://stackblitz.com/edit/stackblitz-starters-wepwax?file=src%2Fstyles.scss](https://stackblitz.com/edit/stackblitz-starters-wepwax?file=src%2Fstyles.scss)
 
 <br><br><br>
 
