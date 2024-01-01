@@ -563,7 +563,7 @@ db.collections('users').updateOne(...);
 ```
 ## Answer:
 ``` typescript
-db.collections('users').updateOne(
+db.collection('users').updateOne(
   { _id: ObjectId("5cd96d3ed5d3e20029627d4a") },
   { $set: { last_connection_date: new Date() } }
 );
@@ -577,7 +577,7 @@ db.collections('users').updateOne(...);
 ```
 ## Answer:
 ``` typescript
-db.collections('users').updateOne(
+db.collection('users').updateOne(
   { _id: ObjectId("5cd96d3ed5d3e20029627d4a") },
   { $addToSet: { roles: 'admin' } }
 );
@@ -590,7 +590,7 @@ db.collections('users').updateOne(...);
 ```
 ## Answer:
 ``` typescript
-db.collections('users').updateOne(
+db.collection('users').updateOne(
   { _id: ObjectId("5cd96d3ed5d3e20029627d4a"), "addresses.zip": 75001 },
   { $set: { "addresses.$.city": "Paris 1" } }
 );
